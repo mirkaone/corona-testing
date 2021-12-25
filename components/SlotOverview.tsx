@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme: Theme) =>
     createStyles({
         heading: {
             fontSize: theme.typography.pxToRem(15),
-            fontWeight: theme.typography.fontWeightRegular,
+            _fontWeight: theme.typography.fontWeightRegular,
         },
         muted: {
             fontSize: theme.typography.pxToRem(14),

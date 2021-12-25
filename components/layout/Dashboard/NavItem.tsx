@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) =>
     },
     isActiveListItem: {
       color: theme.palette.primary.main,
-      fontWeight: theme.typography.fontWeightMedium,
+      _fontWeight: theme.typography.fontWeightMedium,
       backgroundColor: fade(
         theme.palette.primary.main,
         theme.palette.action.selectedOpacity
@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) =>
     },
     isActiveListItemSub: {
       color: theme.palette.text.primary,
-      fontWeight: theme.typography.fontWeightMedium,
+      _fontWeight: theme.typography.fontWeightMedium,
       '& $subIcon:before': {
         transform: 'scale(2)',
         backgroundColor: theme.palette.primary.main

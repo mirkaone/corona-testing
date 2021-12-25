@@ -51,10 +51,10 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         heading: {
             fontSize: theme.typography.pxToRem(15),
-            fontWeight: theme.typography.fontWeightRegular,
+            _fontWeight: theme.typography.fontWeightRegular,
         },
         daySelected: {
-            fontWeight: theme.typography.fontWeightBold,
+            _fontWeight: theme.typography.fontWeightBold,
         },
     }),
 )
